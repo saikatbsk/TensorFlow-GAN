@@ -1,11 +1,11 @@
 # Generative Adversarial Network using TensorFlow
 
 import tensorflow as tf
-from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import os
+from tensorflow.examples.tutorials.mnist import input_data
 
 # Xavier init is well explained here in Andy's blog:
 # http://andyljones.tumblr.com/post/110998971763/an-explanation-of-xavier-initialization
