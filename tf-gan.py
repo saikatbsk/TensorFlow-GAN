@@ -1,4 +1,5 @@
 # Generative Adversarial Network using TensorFlow
+# TODO: save checkpoints
 
 import tensorflow as tf
 import numpy as np
