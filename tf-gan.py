@@ -99,7 +99,7 @@ Z_dim = 100
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
-mnist = input_data.read_data_sets('../Datasets/MNIST/', one_hot=True)
+mnist = input_data.read_data_sets('MNIST/', one_hot=True)
 
 if not os.path.exists('output/'):
     os.makedirs('output/')
